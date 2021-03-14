@@ -1,0 +1,44 @@
+.container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+h1{
+    text-align: center;
+    background: tomato;
+    color: antiquewhite;
+    margin: 0 20%;
+    padding:0 10px 0 10px;
+    border-radius: 20px;
+}
+p{
+    padding:10px
+}
+button{
+    background-color: teal;
+    color: antiquewhite;
+    /* margin: 10px 0px; */
+    padding: 0px;
+    border-radius: 5px;
+    font-size: medium;
+    margin: 20px 20%;
+    cursor: pointer;
+}
+p{
+    font-size: larger;
+    color: brown;
+    font-weight: bolder;
+    margin-left: 40%;
+}
+span{
+    font-weight: bolder;
+    font-size: larger;
+}
+button:hover{
+    margin: 20px 10%;
+    background-color: #ffffff;
+    color: teal;
+    border-color: lightcoral;
+}
